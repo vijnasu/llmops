@@ -73,4 +73,30 @@ This project fine-tunes a sentiment analysis model using the SST-2 dataset. The 
 
 Run the script and analyze a sample text:
 ```sh
-python [fine_tune_sentiment.py](http://_vscodecontentref_/1)
+python fine_tune_sentiment.py
+```
+
+## Files
+
+1. **own_llm**
+    - **Description**: This file likely contains code related to creating or managing your own language model (LLM).
+    - **Purpose**: To develop and manage a custom language model.
+    - **Key Functions**: Model creation, training, and evaluation functions specific to your custom LLM.
+
+2. **sentiment_analysis**
+    - **Description**: This file is probably focused on sentiment analysis tasks.
+    - **Purpose**: To analyze the sentiment of given text data.
+    - **Key Functions**: Functions to preprocess text, load sentiment analysis models, and predict sentiment.
+
+3. **fine_tune_sentiment**
+    - **Description**: This file contains the code to fine-tune a sentiment analysis model using the SST-2 dataset.
+    - **Purpose**: To fine-tune a pre-trained sentiment analysis model and provide a function to analyze sentiment.
+    - **Key Functions**:
+        - `preprocess_function`: Preprocesses the dataset.
+        - `analyze_sentiment`: Analyzes the sentiment of a given text.
+        - Training and evaluation functions using the Hugging Face `Trainer` class.
+
+4. **llm_compress**
+    - **Description**: This file likely contains code related to compressing language models.
+    - **Purpose**: To reduce the size of language models while maintaining their performance.
+    - **Key Functions**: Functions for model compression techniques such as pruning, quantization, and distillation.
