@@ -73,4 +73,4 @@ This project fine-tunes a sentiment analysis model using the SST-2 dataset. The 
 
 Run the script and analyze a sample text:
 ```sh
-python 
+python [fine_tune_sentiment.py](http://_vscodecontentref_/1)
